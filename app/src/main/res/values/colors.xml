@@ -7,6 +7,7 @@
     <color name="normal">#007800</color> <!-- Verde -->
     <color name="sobrepeso">#8E8E00</color> <!-- Amarelo -->
     <color name="obesidade">#880000</color> <!-- Vermelho -->
+    <!-- Vermelho -->
     <color name="obesidade_grave">#880000</color> <!-- Vermelho -->
 
 
