@@ -25,7 +25,7 @@ class ResultActivity : AppCompatActivity() {
 
         when {
             result <= 18.5f -> {
-                classificacao = "Magreza"
+                classificacao = "Thinness"
                 corTexto = R.color.magreza
             }
             result <= 24.9f -> {
@@ -33,15 +33,15 @@ class ResultActivity : AppCompatActivity() {
                 corTexto = R.color.normal
             }
             result <= 29.9f -> {
-                classificacao = "Sobrepeso"
+                classificacao = "Overweight"
                 corTexto = R.color.sobrepeso
             }
             result <= 39.9f -> {
-                classificacao = "Obesidade"
+                classificacao = "Obesity"
                 corTexto = R.color.obesidade
             }
             else -> {
-                classificacao = "Obesidade Grave"
+                classificacao = "Severe Obesity\n"
                 corTexto = R.color.obesidade_grave
             }
         }
